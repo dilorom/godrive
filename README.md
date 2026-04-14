@@ -11,7 +11,7 @@ A modern web platform that translates and certifies foreign driving licenses for
 - Premium SaaS-style interface
 
 ## 🌐 Live Demo
-https://dilorom.github.io/godrive/#-live-demo
+https://dilorom.github.io/godrive/
 
 ## 🛠 Tech Stack
 - HTML5
