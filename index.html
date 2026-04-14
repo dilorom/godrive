@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoDrive | License Translation Platform</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+    <div class="header-container">
+
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="images/logo.jpg" alt="GoDrive logo" class="logo-img" />
+        <span class="logo-text">GoDrive</span>
+      </div>
+
+      <!-- NAV -->
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#services">Services</a>
+        <a href="#upload">Get started</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- LANGUAGE SELECTOR -->
+      <div class="language-selector" id="langDropdown">
+
+        <button id="selectedLang" class="selected" type="button" aria-label="Select language">
+          <img id="selectedFlag" src="images/en.png" alt="English" />
+          <span id="selectedText">English</span>
+          <span aria-hidden="true">▾</span>
+        </button>
+
+        <div id="langOptions" class="dropdown-options">
+          <div class="option" data-lang="en" data-flag="images/english.png">
+            <img src="images/english.png" alt="English" />
+          English
+          </div>
+
+          <div class="option" data-lang="ru" data-flag="images/russia.png">
+            <img src="images/russia.png" alt="Russian" />
+            Русский
+          </div>
+
+          <div class="option" data-lang="uz" data-flag="images/uzbek.png">
+            <img src="images/uzbek.png" alt="Uzbek" />
+            O‘zbekcha
+          </div>
+
+          <div class="option" data-lang="zh" data-flag="images/china.png">
+            <img src="images/china.png" alt="Chinese" />
+            中文
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="translatable" data-key="hero-h1">
+          Fast & Certified Driving License Translation
+        </h1>
+
+        <p class="translatable" data-key="hero-p">
+          A simple platform to translate and certify foreign driving licenses for legal use in Uzbekistan.
+        </p>
+
+        <div class="cta">
+          <a href="#upload" class="btn btn-primary">Get Started</a>
+          <a href="#how-it-works" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/driving illustration.jpg" alt="Driving concept illustration" />
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="steps">
+      <h2>How it works</h2>
+
+      <div class="step-container">
+
+        <div class="step">
+          <img src="images/upload.gif" alt="Upload document" />
+          <h3>Upload</h3>
+          <p>Upload your driving license securely.</p>
+        </div>
+
+        <div class="step">
+          <img src="images/certified.gif" alt="Certification process" />
+          <h3>Translate & Certify</h3>
+          <p>We process and certify your document.</p>
+        </div>
+
+        <div class="step">
+          <img src="images/car.gif" alt="Drive legally" />
+          <h3>Drive legally</h3>
+          <p>Receive your certified translation.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="features">
+      <h2>What we offer</h2>
+
+      <div class="feature-container">
+
+        <div class="feature">
+          <img src="images/fast.png" alt="Fast processing" />
+          <h3>Fast processing</h3>
+          <p>Quick turnaround time.</p>
+        </div>
+
+        <div class="feature">
+          <img src="images/translate.png" alt="Certified translation" />
+          <h3>Certified translation</h3>
+          <p>Officially recognized documents.</p>
+        </div>
+
+        <div class="feature">
+          <img src="images/secure.png" alt="Secure service" />
+          <h3>Secure & safe</h3>
+          <p>Your data is protected.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TRUST SECTION (NEW - IMPORTANT) -->
+    <section class="trust">
+      <h2>Trusted & Secure Platform</h2>
+      <p>We ensure safe document handling and reliable service for all users.</p>
+
+      <div class="trust-grid">
+        <div>🔒 Secure Upload</div>
+        <div>⚡ Fast Processing</div>
+        <div>📄 Certified Output</div>
+      </div>
+    </section>
+
+    <!-- UPLOAD -->
+    <section id="upload" class="upload-section">
+      <h2>Start your request</h2>
+      <p>Upload your document and we will handle the rest.</p>
+
+      <form id="uploadForm">
+        <input type="email" id="email" placeholder="Enter your email" required />
+        <input type="file" id="licenseFile" required />
+
+        <button type="submit" class="btn btn-primary">
+          Upload & Continue
+        </button>
+      </form>
+
+      <p class="note">Secure processing • No data sharing</p>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>About</h2>
+        <p>GoDrive is a digital platform for driving license translation and certification services.</p>
+      </div>
+      <div class="footer-section">
+        <h2>Contact</h2>
+        <p>Email: info@godrive.uz</p>
+        <p>Phone: +998 90 123 45 67</p>
+      </div>
+
+      <div class="footer-section">
+        <h2>Social</h2>
+        <p>
+          <a href="#" class="social-link">
+          <img src="images/telegram.png" alt="Telegram" />
+          Telegram
+          </a>
+        </p>
+
+        <p>
+          <a href="#" class="social-link">
+            <img src="images/instagram.png" alt="Instagram" />
+            Instagram
+          </a>
+        </p>
+      </div>
+      
+    </div>
+    <div class="footer-bottom">
+    <p>© <span id="currentYear"></span> GoDrive. All rights reserved.</p>
+  </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const year = document.getElementById("currentYear");
+  if (year) {
+    year.textContent = new Date().getFullYear();
+  }
+});
+</script>
+</body>
+</html>
